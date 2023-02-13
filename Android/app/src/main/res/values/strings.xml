@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Monster Counter</string>
+    <string name="btn_play_text">Play</string>
 </resources>
