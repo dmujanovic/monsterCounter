@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Crimson Skorzeny"
-        android:textColor="@color/black"
+        android:textColor="#C11212"
         android:fontFamily="@font/grinched"
         android:textSize="60sp"
         app:layout_constraintBottom_toTopOf="@id/imageViewMonster"
