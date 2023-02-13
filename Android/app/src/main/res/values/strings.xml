@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Monster Counter</string>
     <string name="btn_play_text">Play</string>
+    <string name="first_monster_name">Crimson Skorzeny</string>
+    <string name="second_monster_name">Burt Barlow</string>
+    <string name="third_monster_name">Grabber Brownlick</string>
+    <string name="fourth_monster_name">Biter Mcnally</string>
+    <string name="fifth_monster_name">Brainsucker Descoudres</string>
 </resources>
