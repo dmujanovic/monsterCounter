@@ -31,6 +31,22 @@ class MainActivity : AppCompatActivity() {
             if (monster == 1) {
                 if (scoreCounter < 100) {
                     scoreCounter += 10
+                    if(scoreCounter==50){
+                        pointsDisplay.setCompoundDrawablesRelativeWithIntrinsicBounds(
+                            R.drawable.ic_baseline_health_and_safety_medium,
+                            0,
+                            0,
+                            0
+                        )
+                    }
+                    if(scoreCounter==80){
+                        pointsDisplay.setCompoundDrawablesRelativeWithIntrinsicBounds(
+                            R.drawable.ic_baseline_health_and_safety_low,
+                            0,
+                            0,
+                            0
+                        )
+                    }
                     progressCounter += 10
                     pointsDisplay.text = (100 - scoreCounter.toString().toInt()).toString()
                     progressBar.progress = progressCounter
@@ -64,6 +80,22 @@ class MainActivity : AppCompatActivity() {
             if (monster == 2) {
                 if (scoreCounter < 100) {
                     scoreCounter += 10
+                    if(scoreCounter==50){
+                        pointsDisplay.setCompoundDrawablesRelativeWithIntrinsicBounds(
+                            R.drawable.ic_baseline_health_and_safety_medium,
+                            0,
+                            0,
+                            0
+                        )
+                    }
+                    if(scoreCounter==80){
+                        pointsDisplay.setCompoundDrawablesRelativeWithIntrinsicBounds(
+                            R.drawable.ic_baseline_health_and_safety_low,
+                            0,
+                            0,
+                            0
+                        )
+                    }
                     progressCounter += 10
                     pointsDisplay.text = (100 - scoreCounter.toString().toInt()).toString()
                     progressBar.progress = progressCounter
@@ -97,6 +129,22 @@ class MainActivity : AppCompatActivity() {
             if (monster == 3) {
                 if (scoreCounter < 100) {
                     scoreCounter += 5
+                    if(scoreCounter==50){
+                        pointsDisplay.setCompoundDrawablesRelativeWithIntrinsicBounds(
+                            R.drawable.ic_baseline_health_and_safety_medium,
+                            0,
+                            0,
+                            0
+                        )
+                    }
+                    if(scoreCounter==80){
+                        pointsDisplay.setCompoundDrawablesRelativeWithIntrinsicBounds(
+                            R.drawable.ic_baseline_health_and_safety_low,
+                            0,
+                            0,
+                            0
+                        )
+                    }
                     progressCounter += 5
                     pointsDisplay.text = (100 - scoreCounter.toString().toInt()).toString()
                     progressBar.progress = progressCounter
@@ -130,6 +178,22 @@ class MainActivity : AppCompatActivity() {
             if (monster == 4) {
                 if (scoreCounter < 100) {
                     scoreCounter += 2
+                    if(scoreCounter==50){
+                        pointsDisplay.setCompoundDrawablesRelativeWithIntrinsicBounds(
+                            R.drawable.ic_baseline_health_and_safety_medium,
+                            0,
+                            0,
+                            0
+                        )
+                    }
+                    if(scoreCounter==80){
+                        pointsDisplay.setCompoundDrawablesRelativeWithIntrinsicBounds(
+                            R.drawable.ic_baseline_health_and_safety_low,
+                            0,
+                            0,
+                            0
+                        )
+                    }
                     progressCounter += 2
                     pointsDisplay.text = (100 - scoreCounter.toString().toInt()).toString()
                     progressBar.progress = progressCounter
@@ -163,6 +227,22 @@ class MainActivity : AppCompatActivity() {
             if (monster == 5) {
                 if (scoreCounter < 100) {
                     scoreCounter += 1
+                    if(scoreCounter==50){
+                        pointsDisplay.setCompoundDrawablesRelativeWithIntrinsicBounds(
+                            R.drawable.ic_baseline_health_and_safety_medium,
+                            0,
+                            0,
+                            0
+                        )
+                    }
+                    if(scoreCounter==80){
+                        pointsDisplay.setCompoundDrawablesRelativeWithIntrinsicBounds(
+                            R.drawable.ic_baseline_health_and_safety_low,
+                            0,
+                            0,
+                            0
+                        )
+                    }
                     progressCounter += 1
                     pointsDisplay.text = (100 - scoreCounter.toString().toInt()).toString()
                     progressBar.progress = progressCounter
