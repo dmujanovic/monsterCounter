@@ -4,3 +4,19 @@ Simple android studio project game done as an exercise. Collect monsters by taki
 
 ## Preview
 
+**First screen**
+
+![First screen](https://github.com/dmujanovic/monsterCounter/blob/d181bfa3295b658bde6b0913645ab958440df48e/Preview/first_screen.png)
+
+**Collecting monster**
+
+![monster](https://github.com/dmujanovic/monsterCounter/blob/d181bfa3295b658bde6b0913645ab958440df48e/Preview/4monster.png)
+
+**Last monster**
+
+![monster](https://github.com/dmujanovic/monsterCounter/blob/d181bfa3295b658bde6b0913645ab958440df48e/Preview/last_monster.png)
+
+
+**Last screen**
+
+![last_screen](https://github.com/dmujanovic/monsterCounter/blob/d181bfa3295b658bde6b0913645ab958440df48e/Preview/game_over.png)
