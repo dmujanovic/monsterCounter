@@ -1,0 +1,9 @@
+Simple monsters counter
+----------------------------
+5 monsters and progress bar
+first on click 10 points
+second on click 5 points
+third on click 2 points
+4 on click 2 points
+last 1 point
+After each to 100 points change of a monster and background -> restart life counter
